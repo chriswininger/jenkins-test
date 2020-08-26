@@ -4,5 +4,7 @@ node('ubuntu-zion') {
     println("foo bar")
 
     println("a second println")
+
+    println("branch: ${env.BRANCH_NAME}")
   }
 }
